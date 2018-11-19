@@ -1,0 +1,33 @@
+.submit-btn{
+    background-color: #999999;
+    color: black;
+    margin: 15px;
+    padding: 8px 100px;
+    border: 1px solid #8b8a8a;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input{
+    width: 230px;
+    height: 25px;
+    font-display: center;
+    margin-top: 3%;
+           
+
+}
+
+.need-password{
+    color: blue;
+    font-size: 70%;
+}
+
+.error-text{
+    display: inline;
+    direction: left;
+    position: absolute;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 70%; 
+}
+

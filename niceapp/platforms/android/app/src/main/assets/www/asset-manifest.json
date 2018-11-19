@@ -1,0 +1,14 @@
+{
+  "main.css": "./static/css/main.2dfb8e37.chunk.css",
+  "main.js": "./static/js/main.f019a768.chunk.js",
+  "main.js.map": "./static/js/main.f019a768.chunk.js.map",
+  "static/js/1.836756b0.chunk.js": "./static/js/1.836756b0.chunk.js",
+  "static/js/1.836756b0.chunk.js.map": "./static/js/1.836756b0.chunk.js.map",
+  "runtime~main.js": "./static/js/runtime~main.4a686d48.js",
+  "runtime~main.js.map": "./static/js/runtime~main.4a686d48.js.map",
+  "static/media/carmel6000logo.jfif": "./static/media/carmel6000logo.49701202.jfif",
+  "static/css/main.2dfb8e37.chunk.css.map": "./static/css/main.2dfb8e37.chunk.css.map",
+  "index.html": "./index.html",
+  "precache-manifest.6047642e7b1c2a58a8ad6da4974a7db8.js": "./precache-manifest.6047642e7b1c2a58a8ad6da4974a7db8.js",
+  "service-worker.js": "./service-worker.js"
+}

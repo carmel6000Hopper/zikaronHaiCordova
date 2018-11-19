@@ -1,0 +1,134 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    background-color: #315c46;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 150%;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    /* color: #d4d3d3; */
+    font-size: 165%;
+}
+
+.a-container{
+    margin-top: 50px;
+}
+
+a{
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.sidebar .closebtn {
+    /* position: absolute; */
+    top: 0;
+    /* right: 25px; */
+    font-size: 36px;
+    /* margin-left: 50px; */
+}
+
+/* /* .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgba(85, 83, 83, 0.842);
+    color: white;
+    /* padding: 10px 15px; */
+    /* border: none;} */
+    
+/* 
+.openbtn:hover {
+
+    background-color: rgba(156, 150, 150, 0.527);
+
+} */
+ /* .openbtn{
+     /* background-color: #fca783; */
+ 
+
+#main {
+    
+    font-size: 27px;
+    cursor: pointer;
+    background-color:#fb956a;
+    color: white;
+    border: none;
+    text-align: right;
+    transition: margin-left .5s;
+    padding: 16px;
+    margin: -8px;
+    /* width: 100%; */
+    /* background-color: rgba(85, 83, 83, 0.842); */
+}
+
+.container-closebtn{
+ 
+    display: flex;
+    justify-content: center;
+    
+}
+
+.closebtn{
+    flex-direction: center;
+    
+    /* margin-right: 570px; ; */
+    /* margin-top: 40px;  */
+    width: 38px;
+
+
+}
+
+.closebtn:hover{
+    /* margin-right: 569px; ; */
+    /* margin-top: 40px;  */
+    width: 40px;
+    /* text-align: center; */
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-width: 470px) {
+    
+    .sidebar {padding-top: 15px;
+    background-color: #ff9966;}
+    .sidebar a {font-size: 18px;}
+    /* .closebtn { margin-right: 38%; */
+        /* margin-top: 25px;  */
+        /* width: 35px; */
+    /* } */
+}
+/* 
+@media screen and (max-width: 400px) {
+    
+    .sidebar {padding-top: 10px;
+    background-color: #614b68;}
+    .sidebar a {font-size: 10px;}
+}
+
+@media screen and (max-width: 300px) {
+    
+    .sidebar {padding-top: 8px;
+    background-color: #2fcfad;}
+    .sidebar a {font-size: 8px;}
+}
+ */
+
+
+
